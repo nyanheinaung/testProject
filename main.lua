@@ -1,7 +1,7 @@
 function love.load()
     target = {}
-    target.x = math.random(currentRadius, love.graphics.getWidth() - currentRadius)
-    target.y = math.random(currentRadius, love.graphics.getHeight() - currentRadius)
+    target.x = math.random(50, love.graphics.getWidth() - 50)
+    target.y = math.random(50, love.graphics.getHeight() - 50)
     target.radius = 50
 
     score = 0
